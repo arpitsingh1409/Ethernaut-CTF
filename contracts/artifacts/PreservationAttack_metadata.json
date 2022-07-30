@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PreservationAttack.sol": "PreservationAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PreservationAttack.sol": {
+			"keccak256": "0x5d6f88f13dcb1dcd151bb3150d3bb6fef656020f09736c7c115959527dc5bb56",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef86e98e194c80957d6f861001fcd91833b4645020def7b6d4b3240369d636d5",
+				"dweb:/ipfs/QmUNHx9T6TeYWCE9eJtFLCTCPt4QvLzAw3rjC5aGVKZU9E"
+			]
+		}
+	},
+	"version": 1
+}

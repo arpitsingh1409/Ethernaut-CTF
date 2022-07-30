@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ShopAttack.sol": "ShopAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Shop.sol": {
+			"keccak256": "0x7eb5d1f1fdb1951801341f9ac964d893ce031d5b72fbc9b619259d8943cb496b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cc7806312a6bbcdc73047b5493deeeb95aaa39699eb71f87390f33ada5347f8",
+				"dweb:/ipfs/QmRaoMn3pG8bS69w9eCmwgzTEwLTJhncnUVagxVDBsXFWA"
+			]
+		},
+		"contracts/ShopAttack.sol": {
+			"keccak256": "0x9cfaf9272b2873ec5950603d7eb7a114da28d84b100b1b7fb986d6a9af1d5d62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c2f74c7b9d9f95897345af98d6bb5cf92ad264d76bb7cc9e0c5b1cd842b1aae9",
+				"dweb:/ipfs/Qmb8Czrxcd4ovrNy5spaXKgpeJte5xX3WQPA4xUegYid4N"
+			]
+		}
+	},
+	"version": 1
+}

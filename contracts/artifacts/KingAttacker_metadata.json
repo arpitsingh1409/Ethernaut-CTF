@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/KingAttack.sol": "KingAttacker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/KingAttack.sol": {
+			"keccak256": "0x595963eca5fafdbef5d4316ab122dd8b2432e837c0a11aeacef99005765aac87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2bca0a73dda9091a25beceed1d87233bf0a8e0c8ec86d3084a1dbda3b554c35",
+				"dweb:/ipfs/QmWeX4SAccV3coc72SBLYzh1Dt7mjPB98o17oZGb9wMZR6"
+			]
+		}
+	},
+	"version": 1
+}

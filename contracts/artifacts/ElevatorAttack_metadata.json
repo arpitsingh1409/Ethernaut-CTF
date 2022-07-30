@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "callTop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract Elevator",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toggle",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ElevatorAttack.sol": "ElevatorAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Elevator.sol": {
+			"keccak256": "0x1b904b31e37efc4376f49c9b02a1613e8c75db278703a52beaa34f44834c3c1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83f6c48019a5cf7129b3c4a4a02a88772f3c33d16edc3e0bbecb4c534383f148",
+				"dweb:/ipfs/QmejP2LqLjVTCJT3T4nPP1YjLniiHEbvJkc3cx2BYxPNqJ"
+			]
+		},
+		"contracts/ElevatorAttack.sol": {
+			"keccak256": "0x76d8d0e6968a55c87994bcde22694dd15a6466f684b472c7e1b59c02b4d4479e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4cd27f3b028b66392cd19bee038401f3bbe6d6c5c8e17e4b406943a0d8f2b657",
+				"dweb:/ipfs/QmNmzRL8ULSSpgoRjNELvpfC85fGmKKi9L8hYXimwR5DQw"
+			]
+		}
+	},
+	"version": 1
+}

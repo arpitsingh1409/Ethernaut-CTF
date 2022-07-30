@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DenialAttack.sol": "DenialAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DenialAttack.sol": {
+			"keccak256": "0xdb3017448b5b19bfdcecc3f295c23aaa43286481f3ef0ce992f2f21cec18e9b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c32245b9a6c39d6731eb2c60ca4cda29379f6b45545507b0f1d99d0833b5f840",
+				"dweb:/ipfs/QmbpSQcPRnF5EFkZjge1RGPTnNnXsaP7tFXQrUCuXD6NF4"
+			]
+		}
+	},
+	"version": 1
+}

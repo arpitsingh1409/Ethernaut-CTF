@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GateKeeperTwoAttack.sol": "GatekeeperTwoAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GateKeeperTwoAttack.sol": {
+			"keccak256": "0x54b33116d1090890bf103cff72513b5375a603eeb516cd1e1b8bfd7f9f70f1b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b380bb93014de0c2a8f718575f5dd98a8e0e17ddda57e0440f3605d8606367e",
+				"dweb:/ipfs/QmfUmDpxLgLmzDMBhQPFmVAa7AvMyHtxCbc1gNxT3iCfPW"
+			]
+		}
+	},
+	"version": 1
+}

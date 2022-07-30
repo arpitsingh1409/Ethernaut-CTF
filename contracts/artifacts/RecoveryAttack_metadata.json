@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContractAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RecoveryAttack.sol": "RecoveryAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Recovery.sol": {
+			"keccak256": "0xa172b4757c6510f7b18f8981e622dc9464e2fd1bdbc9cd209e7c5768f980574a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6cc63063c0dd03a4d1d3ceb6e36f8112a048a62d423cf59754d5ed300005f101",
+				"dweb:/ipfs/QmaaEjn3QVG6vDbavxHZtTse9NKJ3Z6enmZyYWgCXnMndT"
+			]
+		},
+		"contracts/RecoveryAttack.sol": {
+			"keccak256": "0x03d5a658374dd8be1bfc9fa7d509416de4cb033e8b765a9077e389ba2ae10ed0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d2ff8f48373ab70cd311d27abb899b61b6ab230e0d2f5a0a9efdaad38e6d0a2",
+				"dweb:/ipfs/QmafU25vvX1UijfsSoRYjVE174Fguj3hSdUYmS63vkDEsf"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		}
+	},
+	"version": 1
+}
