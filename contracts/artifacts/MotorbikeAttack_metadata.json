@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MotorbikeAttack.sol": "MotorbikeAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MotorbikeAttack.sol": {
+			"keccak256": "0x17498fd75eb54610d0e9a095340d23d26f67de8d3a94d4cee0e8bb3ae7690767",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://673b4a5d73732da3ef736ac6405d34983138d97249bcb2d259a75619c18863b3",
+				"dweb:/ipfs/QmdZr8TWGnQM9dyd33J5sEYU8Arj19LigsGZk2G5SAhK5b"
+			]
+		}
+	},
+	"version": 1
+}
